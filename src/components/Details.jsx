@@ -16,7 +16,12 @@ const Details = () => {
         <div className="mt-3">
           <div className="flex items-center gap-2">
             <FaGithub />
-            <p className="text-neutral-200">ShykatDev/hookForm</p>
+            <a
+              href="https://github.com/ShykatDev/react-hook-form"
+              className="text-neutral-200"
+            >
+              WebSimp/hookForm
+            </a>
           </div>
           <div className="flex items-center gap-2 mt-2">
             <FaCodeBranch />
