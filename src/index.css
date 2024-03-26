@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    @apply overflow-x-hidden text-light;
+  }
+  .input-field {
+    @apply text-light py-2 px-4 rounded-lg bg-transparent border border-darkLight outline-none focus:border-neutral-500 duration-200;
+  }
+}
